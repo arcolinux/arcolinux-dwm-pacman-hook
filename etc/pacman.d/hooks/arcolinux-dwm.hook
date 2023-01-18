@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = arcolinux-dwm-git
+Target = arcolinux-dwm-nemesis-git
+
+[Action]
+Description = Pacman hook to keep your personal dwm running
+When = PostTransaction
+Exec = /usr/local/bin/arcolinux-dwm-build
