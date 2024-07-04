@@ -1,5 +1,6 @@
 [Trigger]
 Operation = Upgrade
+Operation = Install
 Type = Package
 Target = arcolinux-dwm-git
 Target = arcolinux-dwm-nemesis-git
